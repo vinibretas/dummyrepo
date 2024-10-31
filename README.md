@@ -14,5 +14,8 @@
             - I could use AI to parse the files and see what the user meant, wanted to
               write when the file doesnt have that stored, or even if it does, do it
               anyway for better prompt
-    2. What to do with that input
+    2. What to do with that input file
         - Provide to the ai call, as system instructions
+        - Tell it to analyse the writting pattern
+        - Maybe pass it to another assistant to highlight the writting patterns
+          and only then sending it to the main assistant
