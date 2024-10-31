@@ -21,13 +21,13 @@
                     </ul>
                 </li>
             </ul>
+      </ul>
         <li>What to do with that input file</li>
             <ul>
                 <li>Provide to the AI call, as system instructions</li>
                 <li>Tell it to analyze the writing pattern</li>
                 <li>Maybe pass it to another assistant to highlight the writing patterns and only then send it to the main assistant</li>
             </ul>
-      </ul>
   </ol>
 
 
