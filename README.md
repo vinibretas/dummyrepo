@@ -29,7 +29,7 @@ These features are the basic ones, that will have to be implemented
 
 1. Make script run in the background of server of laptop
 
-1. Send promp using OPENAI api
+1. Send prompt using OPENAI api
 
 ## Other features
 These features will have its feasability evaluated later
