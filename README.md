@@ -1,1 +1,1 @@
-# dummyrepo
+../automation/README.md
