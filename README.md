@@ -52,7 +52,16 @@ These features will have its feasability evaluated later
 1. Logging
 
 
+## Current manual proccess of generating the essay
 
-
-
+1. **Wake up**
+    - Start your day!
+2. **Shower**
+    - Freshen up and get ready.
+3. **Brush teeth**
+    - Keep those teeth clean!
+4. **Breakfast**
+    - Fuel up for the day.
+5. **Class**
+    - Time to learn!
 
