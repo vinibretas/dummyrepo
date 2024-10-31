@@ -14,7 +14,7 @@ Term 1
 
 Term 2
 : Definition of the second term.
-: Additional detail for the second term.
+  Additional detail for the second term.
 
 Term 3
 : Definition of the third term.
