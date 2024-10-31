@@ -54,17 +54,15 @@ These features will have its feasability evaluated later
 
 ## Current manual proccess of generating the essay
 
-1. **Wake up**
-    1. hello
-        * this
-    . Start your day!
-    . that
-1. **Shower**
-    - Freshen up and get ready.
-1. **Brush teeth**
-    - Keep those teeth clean!
-1. **Breakfast**
-    - Fuel up for the day.
-1. **Class**
-    - Time to learn!
+1. **Check email for the theme**
+1. **Check source**
+    - Verify if its a video, link, pdf of a book. And see if I have it stored
+1. **Check pages and or theme**
+    - Make sure to use the pages inside the book not the pdf page number
+1. **Send pdf to chat gpt**
+    - Send it and tell what pages to use
+1. **Tweak output by changing prompt**
+1. **Save output text in a file to be printed and copied**
+
+1. **Create essay sheet with title, TR#, and source**
 
