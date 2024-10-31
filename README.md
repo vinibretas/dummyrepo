@@ -14,7 +14,7 @@
             - I could use AI to parse the files and see what the user meant, wanted to
               write when the file doesnt have that stored, or even if it does, do it
               anyway for better prompt
-        1. a
-        1. b
-        1. c
+    1. hello
+    1. its
+    1. me
 
