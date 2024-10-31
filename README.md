@@ -1,6 +1,7 @@
 # essay_writter
 
-## Things it MUST do
+## Feature goals
+These features are the basic ones, that will have to be implemented
 
 1. Receive input on how the user writes to serve as template
     1. Possible implementation:
@@ -19,3 +20,14 @@
         - Tell it to analyse the writting pattern
         - Maybe pass it to another assistant to highlight the writting patterns
           and only then sending it to the main assistant
+
+2. Generate the response in a PDF file 
+  - I should be with a specific font and size so it tries to match the amount of 
+    lines it will have when manually written
+  - Current tested size and font is: Liberation Serif 16pt
+  - Font and size should be easily changeable later
+
+## Other features
+These features will have its feasability evaluated later
+
+1. 
