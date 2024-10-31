@@ -66,3 +66,5 @@ These features will have its feasability evaluated later
 
 1. **Create essay sheet with title, TR#, and source**
 
+1. **Copy the generated essay to essay sheet**
+
