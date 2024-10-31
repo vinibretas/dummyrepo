@@ -56,7 +56,9 @@ These features will have its feasability evaluated later
 
 1. **Wake up**
     1. hello
+        - this
     - Start your day!
+    - that
 1. **Shower**
     - Freshen up and get ready.
 1. **Brush teeth**
