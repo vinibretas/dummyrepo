@@ -4,5 +4,6 @@
 
 1. Receive input on how the user writes to serve as template
     1. Possible implementation:
-       - Have files with text written by the user
+        - Have files with text written by the user
+        - If there are more than 1 file
 
