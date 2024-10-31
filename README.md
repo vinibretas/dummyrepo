@@ -2,9 +2,11 @@
 
 ## Things it MUST do
 
+<ol type="1">
 1. Receive input on how the user writes to serve as template
-    <ol type="1">
+      <ul>
         <li>Possible implementation:</li>
+      </ul>
             <ul>
                 <li>Have files with text written by the user</li>
                 <li>If there are more than 1 file, write alg to concatenate them</li>
@@ -26,6 +28,6 @@
                 <li>Tell it to analyze the writing pattern</li>
                 <li>Maybe pass it to another assistant to highlight the writing patterns and only then send it to the main assistant</li>
             </ul>
-    </ol>
+  </ol>
 
 
