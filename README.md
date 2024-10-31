@@ -38,8 +38,11 @@ These features will have its feasability evaluated later
     - Due date
     - Source (book pdf, url)
     - Theme and/or pages of book
-  1. If the content is a video, send some alert to the user to either analyse it with sider
-     or maybe implement video support later
+
+1. Generate the essay sheet automatically placing title, TR# and source
+
+1. If the content is a video, send some alert to the user to either analyse it with sider
+   or maybe implement video support later
 
 1. Notify the user that the input (or email from teacher) has been successfully parsed. Sending to
    the user via email, information and relevant attachments (pdfs generated etc)
