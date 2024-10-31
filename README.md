@@ -14,11 +14,5 @@
             - I could use AI to parse the files and see what the user meant, wanted to
               write when the file doesnt have that stored, or even if it does, do it
               anyway for better prompt
-    1. hello
-        1. hello again
-        1. nice seeing
-            1. you
-            1. here
-    1. its
-    1. me
-
+    2. What to do with that input
+        - Provide to the ai call, as system instructions
