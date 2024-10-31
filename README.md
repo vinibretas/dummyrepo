@@ -56,12 +56,12 @@ These features will have its feasability evaluated later
 
 1. **Wake up**
     - Start your day!
-2. **Shower**
+1. **Shower**
     - Freshen up and get ready.
-3. **Brush teeth**
+1. **Brush teeth**
     - Keep those teeth clean!
-4. **Breakfast**
+1. **Breakfast**
     - Fuel up for the day.
-5. **Class**
+1. **Class**
     - Time to learn!
 
