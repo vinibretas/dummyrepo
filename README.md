@@ -21,14 +21,33 @@ These features are the basic ones, that will have to be implemented
     - Maybe pass it to another assistant to highlight the writting patterns
       and only then sending it to the main assistant
 
-2. Generate the final text in a PDF file
+1. Generate the final text in a PDF file
   - I should be with a specific font and size so it tries to match the amount of 
     lines it will have when manually written
   - Current tested size and font is: Liberation Serif 16pt
   - Font and size should be easily changeable later
 
+1. Make script run in the background of server of laptop
+
 ## Other features
 These features will have its feasability evaluated later
 
 1. Automatically read the email sent by the teacher
-  1.
+  1. Parse its contents with AI
+    - TR#
+    - Due date
+    - Source (book pdf, url)
+    - Theme and/or pages of book
+  1. If the content is a video, send some alert to the user to either analyse it with sider
+     or maybe implement video support later
+
+1. Notify the user that the input (or email from teacher) has been successfully parsed. Sending to
+   the user via email, information and relevant attachments (pdfs generated etc)
+
+1. Logging
+
+
+
+
+
+
