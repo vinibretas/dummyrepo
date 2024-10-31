@@ -1,9 +1,5 @@
 # essay_writter
 
 ## Things it MUST do
-1. hello
-    1. its
-    1. me
-    1. I
-
+1. Receive input on how the user writes to serve as template
 
