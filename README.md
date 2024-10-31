@@ -55,6 +55,7 @@ These features will have its feasability evaluated later
 ## Current manual proccess of generating the essay
 
 1. **Wake up**
+    1. hello
     - Start your day!
 1. **Shower**
     - Freshen up and get ready.
