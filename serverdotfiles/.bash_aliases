@@ -1,5 +1,5 @@
 export DEVICE=server
-echo "├── Sourced /home/vinibretas/.bash_aliases ($(whoami)@$DEVICE)"
+interactive_echo "├── Sourced /home/vinibretas/.bash_aliases ($(whoami)@$DEVICE)"
 
 SECONDS=0
 #log_time "File: .bashrc_aliases Line: $LINENO" 4
