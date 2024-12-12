@@ -1,70 +1,71 @@
-# essay_writter
+# Assitants API
+A tool that allows developers to craft AI assistants that can
+perform various tasks
 
-## Feature goals
-These features are the basic ones, that will have to be implemented
+---
+## Extending the OpenAI API
+This assistant API is an extension with more specific tools in order to make
+easier the creation of assistants, bots, tools etc.
 
-1. Receive input on how the user writes to serve as template
-  1. Possible implementation:
-    - Have files with text written by the user
-    - If there are more than 1 file, write alg to concatenate them
-    - If no file is present, fallback to default instructions such as
-      - Write an essay with x lines
-    - Label the text with theme, what the user was trying to imply, etc.
-      - That information should be inside the text file with something to indicate it
-        like some characters to surround it etc
-      - I could use AI to parse the files and see what the user meant, wanted to
-        write when the file doesnt have that stored, or even if it does, do it
-        anyway for better prompt
-  1. What to do with that input file
-    - Provide to the ai call, as system instructions
-    - Tell it to analyse the writting pattern
-    - Maybe pass it to another assistant to highlight the writting patterns
-      and only then sending it to the main assistant
+## Assistants API benefits
+1. Problems it helps to solve
+    - Help the develper on managing:
+        - Data
+        - Models
+        - Prompts
+        - Application state
+        - Embeddings
+        - File uploading and information retriaval
+2. Persistent threading for ongoing conversations or tasks
+    - Ability to save messages and context of the conversation, making
+      it not necessary to resend the entire context all over again on
+      every interaction
+    - Retrieval mechanisms for digging through data already present in the
+      context
+        - Upload files for use of the models.
+    - Code interpreter
+        - Write, analyse and run code...
+    - **Function calling** to execute tasks
+        - We can specify functions, algorithms, agents, external tools, etc
+          in order to perform a certain task
 
-1. Generate the final text in a PDF file
-  - I should be with a specific font and size so it tries to match the amount of 
-    lines it will have when manually written
-  - Current tested size and font is: Liberation Serif 16pt
-  - Font and size should be easily changeable later
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
-1. Make script run in the background of server of laptop
+```mermaid
+  info
+```
 
-1. Send prompt using OPENAI api
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
 
-## Other features
-These features will have its feasability evaluated later
-
-1. Automatically read the email sent by the teacher
-  1. Parse its contents with AI
-    - TR#
-    - Due date
-    - Source (book pdf, url)
-    - Theme and/or pages of book
-
-1. Generate the essay sheet automatically placing title, TR# and source
-
-1. If the content is a video, send some alert to the user to either analyse it with sider
-   or maybe implement video support later
-
-1. Notify the user that the input (or email from teacher) has been successfully parsed. Sending to
-   the user via email, information and relevant attachments (pdfs generated etc)
-
-1. Logging
-
-
-## Current manual proccess of generating the essay
-
-1. **Check email for the theme**
-1. **Check source**
-    - Verify if its a video, link, pdf of a book. And see if I have it stored
-1. **Check pages and or theme**
-    - Make sure to use the pages inside the book not the pdf page number
-1. **Send pdf to chat gpt**
-    - Send it and tell what pages to use
-1. **Tweak output by changing prompt**
-1. **Save output text in a file to be printed and copied**
-
-1. **Create essay sheet with title, TR#, and source**
-
-1. **Copy the generated essay to essay sheet**
 
